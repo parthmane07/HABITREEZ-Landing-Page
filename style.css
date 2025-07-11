@@ -1,0 +1,206 @@
+      * {
+          box-sizing: border-box;
+      }
+
+      html {
+          scroll-behavior: smooth;
+      }
+
+
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4fef4;
+          color: #333;
+      }
+
+      #navbar {
+          background-color: green;
+          color: white;
+          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 20px;
+          position: sticky;
+          top: 0;
+          z-index: 100;
+      }
+
+      #nav1 {
+          color: white;
+          font-size: 24px;
+          font-weight: bold;
+          text-decoration: none;
+      }
+
+      header {
+          text-align: center;
+          padding: 30px 20px;
+          background-color: rgba(198, 167, 167, 0.178);
+      }
+
+      header img {
+          max-width: 90%;
+          height: auto;
+      }
+
+      #line1 {
+          font-size: 20px;
+          margin-top: 15px;
+
+      }
+
+      .feature-text {
+          text-align: center;
+          font-size: x-large;
+          color: #1b7f37;
+          text-decoration: underline;
+      }
+
+      #feature-button {
+          background-color: rgb(137, 240, 158);
+          border-radius: 15px;
+          color: rgb(0, 0, 0);
+          font-size: 16px;
+      }
+
+      .features_page {
+        text-decoration: none;
+        color: #000000;
+      }
+
+      .feature-head {
+          font-size: 22px;
+      }
+
+      /* header p {
+          font-style: normal;
+          font-size: 200px;
+      } */
+
+
+      .features {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+          gap: 20px;
+          padding: 40px 20px;
+          max-width: 1000px;
+          margin: auto;
+      }
+
+      .feature-box {
+          height: 100px;
+          background-color: white;
+          border-radius: 10px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          display: flex;
+          align-items: none;
+          justify-content: left;
+          font-size: 2em;
+      }
+
+      .bold {
+          font-size: 15.9px;
+      }
+
+
+
+      .why-section {
+          text-align: center;
+          padding: 40px 20px;
+      }
+
+      .why-section h2 {
+          color: rgb(30, 134, 7);
+          margin-bottom: 20px;
+      }
+
+      .why-section p {
+          color: black;
+      }
+
+      #cooming {
+        text-align: center;
+        font-size: xx-large;
+        color: #000000;
+      
+      }
+
+      .form-section {
+          background-color: #b7e4c7;
+          padding: 40px 20px;
+          text-align: center;
+      }
+
+      form {
+          max-width: 400px;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+      }
+
+      input,
+      textarea {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          font-size: 16px;
+      }
+
+      #submit-button {
+          background-color: #2b9348;
+          color: white;
+          padding: 10px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 16px;
+      }
+
+      #submit-button:hover {
+          background-color: #080808;
+      }
+
+      @media (max-width: 600px) {
+          #nav1 {
+              font-size: 20px;
+          }
+
+          #button1 a {
+              font-size: 14px;
+              padding: 6px 12px;
+          }
+
+          .line {
+              font-size: 16px;
+          }
+
+          .feature-box {
+              font-size: 0.9em;
+              height: 80px;
+          }
+      }
+
+      .contact-us {
+          background-color: black;
+          color: white;
+          text-align: center;
+      }
+
+      #con-links {
+          color: white;
+      }
+
+      #con-text {
+          font-size: 25px;
+          font-weight: bolder;
+
+      }
+
+      /* footer {
+        position: static;
+        bottom: opx;
+      } */
